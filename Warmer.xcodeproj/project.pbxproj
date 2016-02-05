@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FACE01351C6526A40065A1C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE01341C6526A40065A1C6 /* AppDelegate.swift */; };
+		FACE01371C6526A40065A1C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE01361C6526A40065A1C6 /* ViewController.swift */; };
+		FACE013A1C6526A40065A1C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACE01381C6526A40065A1C6 /* Main.storyboard */; };
+		FACE013C1C6526A40065A1C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACE013B1C6526A40065A1C6 /* Assets.xcassets */; };
+		FACE013F1C6526A40065A1C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACE013D1C6526A40065A1C6 /* LaunchScreen.storyboard */; };
+		FACE014A1C6526A50065A1C6 /* WarmerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE01491C6526A50065A1C6 /* WarmerTests.swift */; };
+		FACE01551C6526A50065A1C6 /* WarmerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE01541C6526A50065A1C6 /* WarmerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FACE01461C6526A50065A1C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACE01291C6526A40065A1C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACE01301C6526A40065A1C6;
+			remoteInfo = Warmer;
+		};
+		FACE01511C6526A50065A1C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FACE01291C6526A40065A1C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FACE01301C6526A40065A1C6;
+			remoteInfo = Warmer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FACE01311C6526A40065A1C6 /* Warmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Warmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACE01341C6526A40065A1C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FACE01361C6526A40065A1C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FACE01391C6526A40065A1C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FACE013B1C6526A40065A1C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FACE013E1C6526A40065A1C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FACE01401C6526A40065A1C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACE01451C6526A50065A1C6 /* WarmerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarmerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACE01491C6526A50065A1C6 /* WarmerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmerTests.swift; sourceTree = "<group>"; };
+		FACE014B1C6526A50065A1C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACE01501C6526A50065A1C6 /* WarmerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarmerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACE01541C6526A50065A1C6 /* WarmerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmerUITests.swift; sourceTree = "<group>"; };
+		FACE01561C6526A50065A1C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACE012E1C6526A40065A1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACE01421C6526A50065A1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACE014D1C6526A50065A1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FACE01281C6526A40065A1C6 = {
+			isa = PBXGroup;
+			children = (
+				FACE01331C6526A40065A1C6 /* Warmer */,
+				FACE01481C6526A50065A1C6 /* WarmerTests */,
+				FACE01531C6526A50065A1C6 /* WarmerUITests */,
+				FACE01321C6526A40065A1C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FACE01321C6526A40065A1C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACE01311C6526A40065A1C6 /* Warmer.app */,
+				FACE01451C6526A50065A1C6 /* WarmerTests.xctest */,
+				FACE01501C6526A50065A1C6 /* WarmerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACE01331C6526A40065A1C6 /* Warmer */ = {
+			isa = PBXGroup;
+			children = (
+				FACE01341C6526A40065A1C6 /* AppDelegate.swift */,
+				FACE01361C6526A40065A1C6 /* ViewController.swift */,
+				FACE01381C6526A40065A1C6 /* Main.storyboard */,
+				FACE013B1C6526A40065A1C6 /* Assets.xcassets */,
+				FACE013D1C6526A40065A1C6 /* LaunchScreen.storyboard */,
+				FACE01401C6526A40065A1C6 /* Info.plist */,
+			);
+			path = Warmer;
+			sourceTree = "<group>";
+		};
+		FACE01481C6526A50065A1C6 /* WarmerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FACE01491C6526A50065A1C6 /* WarmerTests.swift */,
+				FACE014B1C6526A50065A1C6 /* Info.plist */,
+			);
+			path = WarmerTests;
+			sourceTree = "<group>";
+		};
+		FACE01531C6526A50065A1C6 /* WarmerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FACE01541C6526A50065A1C6 /* WarmerUITests.swift */,
+				FACE01561C6526A50065A1C6 /* Info.plist */,
+			);
+			path = WarmerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACE01301C6526A40065A1C6 /* Warmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACE01591C6526A50065A1C6 /* Build configuration list for PBXNativeTarget "Warmer" */;
+			buildPhases = (
+				FACE012D1C6526A40065A1C6 /* Sources */,
+				FACE012E1C6526A40065A1C6 /* Frameworks */,
+				FACE012F1C6526A40065A1C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Warmer;
+			productName = Warmer;
+			productReference = FACE01311C6526A40065A1C6 /* Warmer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FACE01441C6526A50065A1C6 /* WarmerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACE015C1C6526A50065A1C6 /* Build configuration list for PBXNativeTarget "WarmerTests" */;
+			buildPhases = (
+				FACE01411C6526A50065A1C6 /* Sources */,
+				FACE01421C6526A50065A1C6 /* Frameworks */,
+				FACE01431C6526A50065A1C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACE01471C6526A50065A1C6 /* PBXTargetDependency */,
+			);
+			name = WarmerTests;
+			productName = WarmerTests;
+			productReference = FACE01451C6526A50065A1C6 /* WarmerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FACE014F1C6526A50065A1C6 /* WarmerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACE015F1C6526A50065A1C6 /* Build configuration list for PBXNativeTarget "WarmerUITests" */;
+			buildPhases = (
+				FACE014C1C6526A50065A1C6 /* Sources */,
+				FACE014D1C6526A50065A1C6 /* Frameworks */,
+				FACE014E1C6526A50065A1C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FACE01521C6526A50065A1C6 /* PBXTargetDependency */,
+			);
+			name = WarmerUITests;
+			productName = WarmerUITests;
+			productReference = FACE01501C6526A50065A1C6 /* WarmerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACE01291C6526A40065A1C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jerry Zhang";
+				TargetAttributes = {
+					FACE01301C6526A40065A1C6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C2SEXC743T;
+					};
+					FACE01441C6526A50065A1C6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C2SEXC743T;
+						TestTargetID = FACE01301C6526A40065A1C6;
+					};
+					FACE014F1C6526A50065A1C6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C2SEXC743T;
+						TestTargetID = FACE01301C6526A40065A1C6;
+					};
+				};
+			};
+			buildConfigurationList = FACE012C1C6526A40065A1C6 /* Build configuration list for PBXProject "Warmer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FACE01281C6526A40065A1C6;
+			productRefGroup = FACE01321C6526A40065A1C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACE01301C6526A40065A1C6 /* Warmer */,
+				FACE01441C6526A50065A1C6 /* WarmerTests */,
+				FACE014F1C6526A50065A1C6 /* WarmerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACE012F1C6526A40065A1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACE013F1C6526A40065A1C6 /* LaunchScreen.storyboard in Resources */,
+				FACE013C1C6526A40065A1C6 /* Assets.xcassets in Resources */,
+				FACE013A1C6526A40065A1C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACE01431C6526A50065A1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACE014E1C6526A50065A1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACE012D1C6526A40065A1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACE01371C6526A40065A1C6 /* ViewController.swift in Sources */,
+				FACE01351C6526A40065A1C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACE01411C6526A50065A1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACE014A1C6526A50065A1C6 /* WarmerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACE014C1C6526A50065A1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACE01551C6526A50065A1C6 /* WarmerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FACE01471C6526A50065A1C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACE01301C6526A40065A1C6 /* Warmer */;
+			targetProxy = FACE01461C6526A50065A1C6 /* PBXContainerItemProxy */;
+		};
+		FACE01521C6526A50065A1C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FACE01301C6526A40065A1C6 /* Warmer */;
+			targetProxy = FACE01511C6526A50065A1C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FACE01381C6526A40065A1C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACE01391C6526A40065A1C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FACE013D1C6526A40065A1C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACE013E1C6526A40065A1C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FACE01571C6526A50065A1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FACE01581C6526A50065A1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACE015A1C6526A50065A1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Warmer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fengwei-Zhang.Warmer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FACE015B1C6526A50065A1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Warmer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fengwei-Zhang.Warmer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FACE015D1C6526A50065A1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WarmerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fengwei-Zhang.WarmerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Warmer.app/Warmer";
+			};
+			name = Debug;
+		};
+		FACE015E1C6526A50065A1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WarmerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fengwei-Zhang.WarmerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Warmer.app/Warmer";
+			};
+			name = Release;
+		};
+		FACE01601C6526A50065A1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WarmerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fengwei-Zhang.WarmerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Warmer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FACE01611C6526A50065A1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WarmerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Fengwei-Zhang.WarmerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Warmer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACE012C1C6526A40065A1C6 /* Build configuration list for PBXProject "Warmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACE01571C6526A50065A1C6 /* Debug */,
+				FACE01581C6526A50065A1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACE01591C6526A50065A1C6 /* Build configuration list for PBXNativeTarget "Warmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACE015A1C6526A50065A1C6 /* Debug */,
+				FACE015B1C6526A50065A1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FACE015C1C6526A50065A1C6 /* Build configuration list for PBXNativeTarget "WarmerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACE015D1C6526A50065A1C6 /* Debug */,
+				FACE015E1C6526A50065A1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FACE015F1C6526A50065A1C6 /* Build configuration list for PBXNativeTarget "WarmerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACE01601C6526A50065A1C6 /* Debug */,
+				FACE01611C6526A50065A1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACE01291C6526A40065A1C6 /* Project object */;
+}

@@ -71,10 +71,19 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="NowImage" destination="daW-l5-xT3" id="C1e-Fs-oXX"/>
+                        <outlet property="NowTempurature" destination="ZW1-mv-IsH" id="7zK-uf-Bnu"/>
+                        <outlet property="StatusLabel" destination="XL6-cE-55I" id="SsL-1K-yrr"/>
+                        <outlet property="TodayImage" destination="PQV-bE-LBh" id="b6i-xN-WUm"/>
+                        <outlet property="TodayTempurature" destination="nSv-W3-az9" id="NNq-Rj-Fse"/>
+                        <outlet property="YesterdayImage" destination="CGF-Pa-DEs" id="jRN-E5-OeZ"/>
+                        <outlet property="YesterdayTempurature" destination="eDr-aD-Jfv" id="9ml-DZ-Bpe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="278" y="316"/>
+            <point key="canvasLocation" x="380" y="318"/>
         </scene>
     </scenes>
 </document>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0169521CD2690700EC0821 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0169511CD2690700EC0821 /* Main.swift */; };
 		FACE01351C6526A40065A1C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE01341C6526A40065A1C6 /* AppDelegate.swift */; };
 		FACE01371C6526A40065A1C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACE01361C6526A40065A1C6 /* ViewController.swift */; };
 		FACE013A1C6526A40065A1C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACE01381C6526A40065A1C6 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA0169511CD2690700EC0821 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		FACE01311C6526A40065A1C6 /* Warmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Warmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACE01341C6526A40065A1C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FACE01361C6526A40065A1C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				FACE01341C6526A40065A1C6 /* AppDelegate.swift */,
 				FACE01361C6526A40065A1C6 /* ViewController.swift */,
+				FA0169511CD2690700EC0821 /* Main.swift */,
 				FACE01381C6526A40065A1C6 /* Main.storyboard */,
 				FACE013B1C6526A40065A1C6 /* Assets.xcassets */,
 				FACE013D1C6526A40065A1C6 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA0169521CD2690700EC0821 /* Main.swift in Sources */,
 				FACE01371C6526A40065A1C6 /* ViewController.swift in Sources */,
 				FACE01351C6526A40065A1C6 /* AppDelegate.swift in Sources */,
 			);
@@ -487,6 +491,7 @@
 				FACE015B1C6526A50065A1C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FACE015C1C6526A50065A1C6 /* Build configuration list for PBXNativeTarget "WarmerTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +500,7 @@
 				FACE015E1C6526A50065A1C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FACE015F1C6526A50065A1C6 /* Build configuration list for PBXNativeTarget "WarmerUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +509,7 @@
 				FACE01611C6526A50065A1C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
